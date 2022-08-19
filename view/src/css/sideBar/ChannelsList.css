@@ -1,0 +1,12 @@
+/* .sidebar__channelsList > h4 {
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+  color: gray;
+  cursor: pointer;
+} */
+
+.sidebar__channelList__hash {
+  font-size: 30px;
+  padding: 8px;
+}
