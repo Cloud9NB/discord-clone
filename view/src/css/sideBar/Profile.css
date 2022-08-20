@@ -22,3 +22,10 @@
 .sidebar__profileIcons > .MuiSvgIcon-root {
   padding: 10px;
 }
+
+.sidebar__profileIcons > .MuiSvgIcon-root:hover {
+  cursor: pointer;
+  background-color: #474b53;
+  border-radius: 10px;
+  color: white;
+}
