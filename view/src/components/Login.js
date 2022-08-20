@@ -1,9 +1,12 @@
 import React from 'react';
 import '../css/Login.css';
 import { Button } from '@mui/material';
+import { auth, provider } from '../firebase/firebase';
 
 const Login = () => {
-  const signIn = () => {};
+  const signIn = () => {
+    auth.signInWithPopup(provider).catch(error => alert(error.message));
+  };
 
   return (
     <div className='login'>
