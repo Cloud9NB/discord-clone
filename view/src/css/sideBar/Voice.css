@@ -1,0 +1,30 @@
+.sidebar__voice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  padding: 10px;
+  background-color: #23272a;
+}
+
+.sidebar__voiceIcon {
+  color: #57f287;
+}
+
+.sidebar__voiceInfo {
+  flex: 1;
+  padding: 10px;
+}
+
+.sidebar__voiceInfo > p {
+  font-size: small;
+}
+
+.sidebar__voiceInfo > h3 {
+  color: #57f287;
+}
+
+.sidebar_voiceIcons {
+  color: #ed4245;
+  padding: 10px;
+}
