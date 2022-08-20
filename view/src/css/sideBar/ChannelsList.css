@@ -1,12 +1,17 @@
-/* .sidebar__channelsList > h4 {
+.sidebar__channels > h4 {
   display: flex;
   padding-left: 15px;
   align-items: center;
   color: gray;
   cursor: pointer;
-} */
+}
 
 .sidebar__channelList__hash {
   font-size: 30px;
   padding: 8px;
+}
+
+.sidebar__channels > h4:hover {
+  color: white;
+  background-color: #2c2f33;
 }
