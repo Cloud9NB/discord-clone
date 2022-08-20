@@ -2,6 +2,7 @@ import '../../../css/sideBar/Sidebar.css';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Channels from './Channels';
 import Voice from './Voice';
+import Profile from './Profile';
 
 const Sidebar = () => {
   return (
@@ -17,6 +18,8 @@ const Sidebar = () => {
       <Channels />
 
       <Voice />
+
+      <Profile />
     </div>
   );
 };

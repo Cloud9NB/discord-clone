@@ -1,0 +1,24 @@
+.sidebar__profile {
+  display: flex;
+  flex-direction: row;
+  color: #91a6a6;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  padding: 10px;
+  background-color: #23272a;
+  border-top: 1px solid gray;
+}
+
+.sidebar__profileInfo {
+  flex: 1;
+  padding: 10px;
+}
+
+.sidebar__profileInfo > h3 {
+  color: #ffffff;
+}
+
+.sidebar__profileIcons > .MuiSvgIcon-root {
+  padding: 10px;
+}

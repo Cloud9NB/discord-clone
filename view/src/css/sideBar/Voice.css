@@ -7,7 +7,8 @@
   background-color: #23272a;
 }
 
-.sidebar__voiceIcon {
+.sidebar__voiceIcon,
+.sidebar__voiceInfo > h3 {
   color: #57f287;
 }
 
@@ -18,10 +19,6 @@
 
 .sidebar__voiceInfo > p {
   font-size: small;
-}
-
-.sidebar__voiceInfo > h3 {
-  color: #57f287;
 }
 
 .sidebar_voiceIcons {
