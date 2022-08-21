@@ -17,7 +17,6 @@ const Chat = () => {
 
   const messageList = state.messages.map(message => (
     <ChatMessages
-      key={message.timestamp.seconds}
       message={message.messages}
       timestamp={message.timestamp}
       user={message.user}
