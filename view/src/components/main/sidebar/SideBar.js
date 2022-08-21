@@ -13,9 +13,9 @@ const Sidebar = () => {
       </div>
 
       <Channels />
+      {/* <Channels />
       <Channels />
-      <Channels />
-      <Channels />
+      <Channels /> */}
 
       <Voice />
 

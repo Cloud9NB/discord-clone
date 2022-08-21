@@ -21,6 +21,11 @@
   color: white;
 }
 
+.sidebar__addChannel:hover {
+  cursor: pointer;
+  color: white;
+}
+
 .sidebar__channelsList > h4 {
   display: flex;
   padding-left: 15px;
