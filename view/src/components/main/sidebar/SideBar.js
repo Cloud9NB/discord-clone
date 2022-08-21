@@ -11,14 +11,8 @@ const Sidebar = () => {
         <h3>March 2022 Cohort</h3>
         <ExpandMoreIcon />
       </div>
-
       <Channels />
-      {/* <Channels />
-      <Channels />
-      <Channels /> */}
-
       <Voice />
-
       <Profile />
     </div>
   );
