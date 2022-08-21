@@ -1,16 +1,17 @@
 import { Avatar } from '@mui/material';
 import '../../../css/chat/ChatMessages.css';
 
-const ChatMessages = () => {
+const ChatMessages = ({ message, timestamp, user }) => {
+  const convertedTime = new Date(timestamp?.toDate()).toUTCString();
   return (
     <div className='chatMessages'>
-      <Avatar />
+      <Avatar src={user.photo} />
       <div className='chatMessages__info'>
         <h4>
-          Cloud9NB
-          <span className='chatMessages__timestamp'>Today at 10:50 PM</span>
-          <p>Messages here</p>
+          {user.displayName}
+          <span className='chatMessages__timestamp'>{convertedTime}</span>
         </h4>
+        <p>{message}</p>
       </div>
     </div>
   );
