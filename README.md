@@ -7,9 +7,6 @@ A full stack Discord Clone app where users can login with their google account a
 `Project is still work in progress`
 
 ![Before Login](https://github.com/Cloud9NB/discord-clone/blob/main/public/docs/screenshots/beforeLogin.png?raw=true)
-
-##
-
 ![Login](https://github.com/Cloud9NB/discord-clone/blob/main/public/docs/screenshots/login.jpg?raw=true)
 ![Main Page](https://github.com/Cloud9NB/discord-clone/blob/main/public/docs/screenshots/mainPage.png?raw=true)
 
