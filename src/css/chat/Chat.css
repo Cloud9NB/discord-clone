@@ -1,0 +1,14 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  flex: 0.75;
+  background-color: #363a3f;
+  height: 100vh;
+}
+
+.chat__messages {
+  flex: 1;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow: scroll;
+}
