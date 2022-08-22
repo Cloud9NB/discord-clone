@@ -4,16 +4,27 @@ import CardGiftcardIcon from '@mui/icons-material/CardGiftcard';
 import GifBoxIcon from '@mui/icons-material/GifBox';
 import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions';
 import { useSelector } from 'react-redux';
-import { selectChannelListId } from '../../../features/appSlice';
+import {
+  selectChannelListId,
+  selectChannelListName,
+} from '../../../features/appSlice';
 import db from '../../../firebase/firebase';
 import { selectUser } from '../../../features/userSlice';
 import firebase from 'firebase/compat/app';
 
 const ChatInput = ({ setState, input }) => {
   const channelListId = useSelector(selectChannelListId);
-  const channelList = '#general-chat';
+  const channelListName = useSelector(selectChannelListName);
   const user = useSelector(selectUser);
-  const chatPlaceholder = `Message ${channelList}`;
+  let chatPlaceholder = `Message #${channelListName}`;
+
+  const channelPlaceholder = () => {
+    if (!channelListName) {
+      chatPlaceholder = 'Please choose a channel to message';
+    }
+  };
+
+  channelPlaceholder();
 
   const onChange = event => {
     setState(prev => ({ ...prev, input: event.target.value }));

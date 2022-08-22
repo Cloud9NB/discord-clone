@@ -1,46 +1,37 @@
-# Getting Started with Create React App and Redux
+# `Discord Clone`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+A full stack Discord Clone app where users can login with their google account and be able to create new channels and chat amongst others in real time.
 
-## Available Scripts
+##
 
-In the project directory, you can run:
+`Project is still work in progress`
 
-### `npm start`
+![Before Login](https://github.com/Cloud9NB/discord-clone/blob/main/public/docs/screenshots/beforeLogin.png?raw=true)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Login](https://github.com/Cloud9NB/discord-clone/blob/main/public/docs/screenshots/login.jpg?raw=true)
+![Main Page](https://github.com/Cloud9NB/discord-clone/blob/main/public/docs/screenshots/mainPage.png?raw=true)
 
-### `npm test`
+## `Live Link`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+For a live demo visit the link here [Discord Clone](https://discord-clone-344c1.web.app/)
 
-### `npm run build`
+## `Running the project`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+First make sure you are using the right node. To do that run `nvm use 16.15.0` before installing the packages.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Run `npm install && npm start` to install dependencies and to launch the server.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+On the browser go to `http://localhost:3000/`
 
-### `npm run eject`
+## `Dependencies`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- `React`: JavaScript library for building user interfaces
+- `Material-UI`: MUI provides a simple, customizable, and accessible library of React components
+- `Redux.js/tool-kit`: The official, opinionated, batteries-included toolset for efficient Redux development to make life easier
+- `React-Redux`: Redux is a predictable state container for JavaScript apps
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## `Database`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `Firebase`:
