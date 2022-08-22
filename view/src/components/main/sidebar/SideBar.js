@@ -8,7 +8,17 @@ const Sidebar = () => {
   return (
     <div className='sidebar'>
       <div className='sidebar__top'>
-        <h3>March 2022 Cohort</h3>
+        <h3>
+          GitHub{' '}
+          <a
+            className='sidebar__githubLink'
+            href='https://github.com/Cloud9NB'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            @Cloud9NB
+          </a>
+        </h3>
         <ExpandMoreIcon />
       </div>
       <Channels />

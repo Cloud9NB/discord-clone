@@ -36,7 +36,7 @@ const Channels = () => {
       <div className='sidebar__channelsHeader'>
         <div className='sidebar__header'>
           <ExpandMoreIcon className='sidebar__expandChannel' />
-          <h4>./INFORMATION</h4>
+          <h4>Text Channels</h4>
         </div>
         <AddIcon className='sidebar__addChannel' onClick={addChannelList} />
       </div>

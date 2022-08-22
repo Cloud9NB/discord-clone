@@ -1,3 +1,7 @@
+.sidebar__channels {
+  overflow: scroll;
+}
+
 .sidebar__channels > h4 {
   display: flex;
   padding-left: 15px;
